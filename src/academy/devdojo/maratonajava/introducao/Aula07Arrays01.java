@@ -7,11 +7,11 @@ public class Aula07Arrays01 {
         // boolean false
         // String (references) null
 
-        String [] ages = new String [3];
+        String [] names = new String [3];
 
-        System.out.println(ages [0]);
-        System.out.println(ages [1]);
-        System.out.println(ages [2]);
+        System.out.println(names [0]);
+        System.out.println(names [1]);
+        System.out.println(names [2]);
 
     }
 }
