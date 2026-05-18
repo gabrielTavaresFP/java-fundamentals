@@ -27,7 +27,7 @@ java-fundamentals/
 |--------|--------|-----------|
 | Sintaxe básica | ✅ Done | Week 1 |
 | Operadores | ✅ Done | Week 1 |
-| Estruturas de controle | 🔄 In progress | - |
+| Estruturas de controle | ✅ Done | Week 1 |
 | Arrays | ⏳ Pending | - |
 | POO | ⏳ Pending | - |
 
@@ -36,6 +36,8 @@ java-fundamentals/
 - Java Collections Framework
 - Exception handling
 - Functional programming with Streams
+- Multithreading and concurrency
+- Generics
 
 ## Course
 [Java Virado no Jiraya — DevDojo](https://devdojo.com.br)
