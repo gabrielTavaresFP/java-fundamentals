@@ -28,11 +28,11 @@ java-fundamentals/
 | Sintaxe básica | ✅ Done | Week 1 |
 | Operadores | ✅ Done | Week 1 |
 | Estruturas de controle | ✅ Done | Week 1 |
-| Arrays | ⏳ Pending | - |
+| Arrays | ✅ Done | Week 1 |
 | POO | ⏳ Pending | - |
 
 ## What I'm learning
-- Object-oriented programming principles
+- OOP principles
 - Java Collections Framework
 - Exception handling
 - Functional programming with Streams
