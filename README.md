@@ -25,11 +25,11 @@ java-fundamentals/
 ## Progress
 | Module | Status | Completed |
 |--------|--------|-----------|
-| Sintaxe básica | ✅ Done | Week 1 |
-| Operadores | ✅ Done | Week 1 |
-| Estruturas de controle | ✅ Done | Week 1 |
+| Basic Syntax | ✅ Done | Week 1 |
+| Operators | ✅ Done | Week 1 |
+| Control Flow | ✅ Done | Week 1 |
 | Arrays | ✅ Done | Week 1 |
-| POO | ⏳ Pending | - |
+| OOP | ⏳ Pending | - |
 
 ## What I'm learning
 - OOP principles
