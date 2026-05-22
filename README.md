@@ -25,14 +25,14 @@ java-fundamentals/
 ## Progress
 | Module | Status | Completed |
 |--------|--------|-----------|
-| Sintaxe básica | ✅ Done | Week 1 |
-| Operadores | ✅ Done | Week 1 |
-| Estruturas de controle | ✅ Done | Week 1 |
-| Arrays | ⏳ Pending | - |
-| POO | ⏳ Pending | - |
+| Basic Syntax | ✅ Done | Week 1 |
+| Operators | ✅ Done | Week 1 |
+| Control Flow | ✅ Done | Week 1 |
+| Arrays | ✅ Done | Week 1 |
+| OOP | ⏳ Pending | - |
 
 ## What I'm learning
-- Object-oriented programming principles
+- OOP principles
 - Java Collections Framework
 - Exception handling
 - Functional programming with Streams
