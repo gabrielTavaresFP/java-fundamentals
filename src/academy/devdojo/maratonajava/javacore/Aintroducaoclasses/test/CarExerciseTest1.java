@@ -15,6 +15,8 @@ public class CarExerciseTest1 {
         car2.model = "Ferrari";
         car2.carYear = 2026;
 
+        car2=car;
+
         System.out.println(car.name + " " + car.model + " " + car.carYear);
         System.out.println("\n");
         System.out.println(car2.name + " " + car2.model + " " + car2.carYear);
