@@ -5,7 +5,7 @@ import academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain.Calculato
 public class CalculatorTest03 {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        double result = calculator.twoNumbersDivision(20,0);
+        double result = calculator.twoNumbersDivision(30,0);
         System.out.println(result);
     }
 }
