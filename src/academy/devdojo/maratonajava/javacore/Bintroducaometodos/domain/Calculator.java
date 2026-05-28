@@ -7,7 +7,7 @@ public class Calculator {
     }
 
 
-    public void twoNumbersSubtrair() {
+    public void twoNumbersSubtraction() {
         System.out.println(10 - 10);
     }
 

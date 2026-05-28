@@ -6,5 +6,6 @@ public class CalculatorTest02 {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         calculator.twoNumbersMultiplication(10,20);
+
     }
 }

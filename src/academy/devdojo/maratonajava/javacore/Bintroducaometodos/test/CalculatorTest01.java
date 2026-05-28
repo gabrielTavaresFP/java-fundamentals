@@ -6,9 +6,10 @@ import academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain.Calculato
 public class CalculatorTest01 {
     public static void main(String[] args) {
         Calculator calculator = new Calculator(); // <-- objeto
+
         calculator.twoNumbersSum();
         System.out.println("finishing CalculatorTest01");
-        calculator.twoNumbersSubtrair();
+        calculator.twoNumbersSubtraction();
         System.out.println("finishing CalculatorTest01");
     }
 }
