@@ -21,7 +21,7 @@ public class StudentTest01 {
         printer.printer(student);
         printer.printer(student2);
 
-        System.out.println("-----------------------");
+        System.out.println("----------------------");
 
         printer.printer(student);
         printer.printer(student2);
