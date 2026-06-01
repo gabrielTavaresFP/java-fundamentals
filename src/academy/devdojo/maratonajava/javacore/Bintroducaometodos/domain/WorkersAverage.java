@@ -1,0 +1,12 @@
+package academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain;
+
+public class WorkersAverage {
+    public void salaryAverage(double... workersAverageSalary) {
+        double sum = 0;
+        for (double num : workersAverageSalary) {
+            sum = sum + num;
+        }
+        System.out.println(sum / workersAverageSalary.length);
+    }
+
+}
