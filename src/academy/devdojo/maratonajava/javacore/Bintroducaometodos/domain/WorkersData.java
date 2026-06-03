@@ -5,7 +5,7 @@ public class WorkersData {
         System.out.println(worker.name);
         System.out.println(worker.age);
        for (double num : worker.salary) {
-           System.out.print(num + " ");
+           System.out.print(num + "  ");
        }
     }
 }
