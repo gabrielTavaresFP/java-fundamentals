@@ -11,13 +11,13 @@ public class WorkerTest01 {
         WorkersData workersData = new WorkersData();
         WorkersAverage workersAverage = new WorkersAverage();
 
-        worker.name = "Catarina";
-        worker.age = 22;
-        worker.salary = new double[]{5200, 3600, 7100};
+        worker.setName("Catarina");
+        worker.setAge(99);
+        worker.setSalary(new double[]{5200, 3600, 7100});
 
 
         workersData.printData(worker);
         System.out.println(" ");
-        workersAverage.salaryAverage(worker.salary);
+        workersAverage.salaryAverage(worker.getSalary());
     }
 }
