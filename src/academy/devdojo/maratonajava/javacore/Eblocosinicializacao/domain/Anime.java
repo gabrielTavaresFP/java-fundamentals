@@ -2,32 +2,34 @@ package academy.devdojo.maratonajava.javacore.Eblocosinicializacao.domain;
 
 public class Anime {
     private String name;
-    private int[] episodes = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    private int[] episodes;
+
+    {
+        episodes = new int[10];
+        for (int i = 0; i < episodes.length; i++) {
+            episodes[i] = i + 1;
+        }
+    }
+
+    public Anime(String name) {
+        this.name = name;
+
+    }
+
 
     public Anime() {
-        episodes = new int[100];
-        for (int i = 0; i < episodes.length; i++) {
-        episodes[i] = i+1;
-        }
 
-        for (int num : this.episodes) {
-            System.out.print(num + " ");
+        for (int episode : this.episodes) {
+            System.out.print(episode + " ");
         }
+        System.out.println();
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public int[] getEpisodes() {
         return episodes;
-    }
-
-    public void setEpisodes(int[] episodes) {
-        this.episodes = episodes;
     }
 }
