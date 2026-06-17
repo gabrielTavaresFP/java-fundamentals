@@ -7,7 +7,7 @@ public class CarTest01 {
     public static void main(String[] args) {
         Car.speedCap = 180;
 
-        Car c1 = new Car("Polo", 180);
+        Car c1 = new Car("Polo", 170);
         Car c2 = new Car("Audi", 300);
         Car c3 = new Car("Rolls Royce", 240);
 
