@@ -11,6 +11,6 @@ public class Aula07Arrays03 {
             System.out.println(names[i]);
         }
         //names = new String[5];
-        System.out.println(names[2]);
+        System.out.println(names[3]);
     }
 }

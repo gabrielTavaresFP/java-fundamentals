@@ -5,7 +5,7 @@ public class Aula05EstruturasCondicionais06Exercicio {
         // Given the values 1 to 7, print if its a week or weekend day
         // Considering 1 as Sunday
 
-        byte day = 4;
+        byte day = 1;
         switch (day) {
             case 1:
             case 7:

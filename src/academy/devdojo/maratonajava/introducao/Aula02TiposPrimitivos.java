@@ -3,12 +3,12 @@ package academy.devdojo.maratonajava.introducao;
 public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
         // int, double, float, char, byte, short, long, boolean
-        int age = (int) 1000000000000000000L;
+        long age = (int) 1000000000000000000L;
         long bigNumber = 100000L;
-        double salaryDouble = 2000D;
-        float salaryFloat = (float) 2500.0;
-        byte ageByte = 10;
-        short ageShort = 10;
+        double salaryDouble = 200.60D;
+        float salaryFloat = (float) 2500.0f;
+        byte ageByte = 127;
+        short ageShort = 10000;
         boolean truly = true;
         boolean fake = false;
         char character = 67;

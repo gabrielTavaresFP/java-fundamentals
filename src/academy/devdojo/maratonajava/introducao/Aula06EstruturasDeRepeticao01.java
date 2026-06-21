@@ -10,7 +10,7 @@ public class Aula06EstruturasDeRepeticao01 {
         }
         count = 0;
         do {
-            System.out.println("wassup" + ++count);
+            System.out.println("wassup " + ++count);
         } while (count < 10);
 
         for (int i = 0; i < 10; i++ ) {

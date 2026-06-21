@@ -6,7 +6,7 @@ public class Aula05EstruturasCondicionais05 {
 
         byte day = 5;
 
-        // char, int, bite, short, enum, String
+        // char, int, byte, short, String
         switch (day) {
             case 1:
                 System.out.println("Sun");

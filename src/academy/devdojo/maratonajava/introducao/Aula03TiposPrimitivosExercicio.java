@@ -8,9 +8,9 @@ public class Aula03TiposPrimitivosExercicio {
         int day = 0;
         double dateDayMonth = 1.01;
         int dateYear = 2011;
-        String message = "Me, " +name+ ", living in " +address+ ", confirm that I received the salary of " +salary+ " dollars, on date " +day+dateDayMonth+ "." +dateYear;
+        String aaaaaaa = "Me, " +name+ ", living in " +address+ ", confirm that I received the salary of " +salary+ " dollars, on date " +day+dateDayMonth+ "." +dateYear;
 
-        System.out.println(message);
+        System.out.println(aaaaaaa);
     }
 
 }

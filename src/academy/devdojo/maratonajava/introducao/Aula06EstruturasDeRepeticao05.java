@@ -9,7 +9,7 @@ public class Aula06EstruturasDeRepeticao05 {
             if (installmentPrice < 1000) {
                 continue;
             }
-            System.out.println("installment " + installment + " R$ " + installmentPrice);
+            System.out.println("installment " + installment + " R$ " + (int) installmentPrice);
         }
     }
 }

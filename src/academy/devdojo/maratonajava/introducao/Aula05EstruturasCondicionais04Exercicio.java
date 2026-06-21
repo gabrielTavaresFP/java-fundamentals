@@ -3,10 +3,9 @@ package academy.devdojo.maratonajava.introducao;
 public class Aula05EstruturasCondicionais04Exercicio {
     public static void main(String[] args) {
         int salary = 100000;
-        int percent = 100;
-        double taxes1 = 9.7 / percent;
-        double taxes2 = 37.35 / percent;
-        double taxes3 = 49.50 / percent;
+        double taxes1 = 9.7 / 100;
+        double taxes2 = 37.35 / 100;
+        double taxes3 = 49.50 / 100;
         double result;
 
         if (salary < 34712) {
@@ -16,6 +15,6 @@ public class Aula05EstruturasCondicionais04Exercicio {
         }else{
             result = salary * taxes3;
         }
-        System.out.println(result);
+        System.out.println("u have to pay " + (int) result + " dollars to the government");
     }
 }
