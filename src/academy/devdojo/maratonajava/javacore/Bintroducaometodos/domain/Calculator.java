@@ -12,6 +12,7 @@ public class Calculator {
     }
 
     public void twoNumbersMultiplication(int num, int num2) {
+        System.out.println(num * num2);
     }
 
     public double twoNumbersDivision(double num1, double num2) {
