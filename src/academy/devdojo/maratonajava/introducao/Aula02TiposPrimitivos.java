@@ -6,7 +6,7 @@ public class Aula02TiposPrimitivos {
         long age = (int) 1000000000000000000L;
         long bigNumber = 100000L;
         double salaryDouble = 200.60D;
-        float salaryFloat = (float) 2500.0f;
+        float salaryFloat = (float) 2520.0f;
         byte ageByte = 127;
         short ageShort = 10000;
         boolean truly = true;
