@@ -8,7 +8,7 @@ public class Calculator {
 
 
     public void twoNumbersSubtraction() {
-        System.out.println(20 - 20);
+        System.out.println(10 - 20);
     }
 
     public void twoNumbersMultiplication(int num, int num2) {
