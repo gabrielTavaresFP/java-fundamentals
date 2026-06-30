@@ -9,7 +9,7 @@ public class WorkersData {
             return;
         }
         for (double num : worker.getSalary()) {
-            System.out.print(num + "  ");
+            System.out.print(num + "   ");
 
         }
     }
