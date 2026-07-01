@@ -11,20 +11,11 @@ public class Car {
     }
 
     public void print() {
-        System.out.println();
-        System.out.print(this.name + " ");
-        System.out.print(this.maxSpeed + " ");
-        System.out.print(Car.speedCap + " ");
+        System.out.println("-------------");
+        System.out.println("Name "+this.name);
+        System.out.println("Max Speed "+this.maxSpeed);
+        System.out.println("Speed Cap "+Car.speedCap);
     }
-
-    public static double getSpeedCap() {
-        return speedCap;
-    }
-
-    public static void setSpeedCap(double speedCap) {
-        Car.speedCap = speedCap;
-    }
-
     public String getName() {
         return name;
     }
@@ -40,5 +31,4 @@ public class Car {
     public void setMaxSpeed(double maxSpeed) {
         this.maxSpeed = maxSpeed;
     }
-
 }

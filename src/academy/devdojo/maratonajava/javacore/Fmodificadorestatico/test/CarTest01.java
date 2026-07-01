@@ -5,16 +5,14 @@ import academy.devdojo.maratonajava.javacore.Fmodificadorestatico.domain.Car;
 public class CarTest01 {
 
     public static void main(String[] args) {
-        Car.speedCap = 180;
+        Car c1 = new Car("A", 280);
+        Car c2 = new Car("B", 290);
+        Car c3 = new Car("C", 255);
 
-        Car c1 = new Car("Polo", 160);
-        Car c2 = new Car("Audi", 300);
-        Car c3 = new Car("Rolls Royce", 240);
+        Car.speedCap = 200;
 
-
-
-        c1.print ();
-        c2.print ();
-        c3.print ();
+        c1.print();
+        c2.print();
+        c3.print();
     }
 }

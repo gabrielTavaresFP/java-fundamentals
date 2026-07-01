@@ -7,7 +7,7 @@ public class AnimeTest01 {
         Anime anime = new Anime();
 
         for (int num : anime.getEpisodes()) {
-            System.out.print(num + " ");
+            System.out.print(num + "   ");
         }
 
 
