@@ -12,7 +12,7 @@ public class WorkerTest01 {
         WorkersAverage workersAverage = new WorkersAverage();
 
         worker.setName("Catarina");
-        worker.setAge(99);
+        worker.setAge(15);
         worker.setSalary(new double[]{5200, 3600, 7100});
 
 
