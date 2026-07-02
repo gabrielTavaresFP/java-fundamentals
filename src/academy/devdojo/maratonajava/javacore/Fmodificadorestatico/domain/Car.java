@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.javacore.Fmodificadorestatico.domain;
 public class Car {
     private String name;
     private double maxSpeed;
-    public static double speedCap = 250;
+    private static double speedCap = 250;
 
     public Car(String name, double maxSpeed) {
         this.name = name;
@@ -16,6 +16,15 @@ public class Car {
         System.out.println("Max Speed "+this.maxSpeed);
         System.out.println("Speed Cap "+Car.speedCap);
     }
+
+    public static void setSpeedCap(double speedCap) {
+        Car.speedCap = speedCap;
+    }
+
+    public static double getSpeedCap() {
+        return Car.speedCap;
+    }
+
     public String getName() {
         return name;
     }
