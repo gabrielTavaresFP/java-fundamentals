@@ -16,7 +16,7 @@ public class Team {
 
     public void print() {
         System.out.println(this.name);
-        if(players == null) return;
+        if (players == null) return;
         for (Player player : players) {
             System.out.println(player.getName());
         }
