@@ -12,7 +12,7 @@ public class ExerciseTest01 {
 
         Teachers t1 = new Teachers("GABRIEL", "MATEMATICA");
 
-        Students stu1 = new Students("CATARINA", 15);
+        Students stu1 = new Students("CATARINA ", 15);
         Students[] stus = {stu1};
 
         Location l = new Location("RUA 1");
