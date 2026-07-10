@@ -7,7 +7,9 @@ import academy.devdojo.maratonajava.javacore.Gassociacao.domain.Teachers;
 
 public class ExerciseTest01 {
     public static void main(String[] args) {
-        Seminary s1 = new Seminary("SEMINARIO 1");
+        Location l = new Location("RUA 1");
+
+        Seminary s1 = new Seminary("SEMINARIO 1", l);
         Seminary[] ss = {s1};
 
         Teachers t1 = new Teachers("GABRIEL", "MATEMATICA");
@@ -15,7 +17,6 @@ public class ExerciseTest01 {
         Students stu1 = new Students("CATARINA ", 15);
         Students[] stus = {stu1};
 
-        Location l = new Location("RUA 1");
 
         s1.setLocation(l);
         s1.setStudents(stus);
@@ -30,8 +31,6 @@ public class ExerciseTest01 {
         t1.print();
         System.out.println("---------");
         stu1.print();
-
-
 
 
     }

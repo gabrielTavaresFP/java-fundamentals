@@ -5,11 +5,6 @@ public class Seminary {
     private Location location;
     private Students[] students;
 
-    public Seminary(String name) {
-        this.title = name;
-
-    }
-
     public Seminary(String name, Location location) {
         this.title = name;
         this.location = location;
@@ -22,12 +17,11 @@ public class Seminary {
     }
 
     public void print() {
-        System.out.println(this.title);
-        if ( location == null) return;
-        System.out.println(location.getLocation());
+        System.out.println("Titulo : " + this.title);
+        System.out.println("Local : " + location.getLocation());
         if (students == null) return;
         for (Students student : students)
-            System.out.println(student.getName());
+            System.out.println("Alunos : " + student.getName());
     }
 
 

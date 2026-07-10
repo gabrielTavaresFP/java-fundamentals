@@ -17,10 +17,10 @@ public class Students {
     }
 
     public void print() {
-        System.out.println(this.name);
-        System.out.println(this.age);
+        System.out.println("Aluno : " + this.name);
+        System.out.println("Idade : " + this.age);
         if (seminary == null) return;
-        System.out.println(seminary.getTitle());
+        System.out.println("Seminario que estuda : " + seminary.getTitle());
 
     }
 

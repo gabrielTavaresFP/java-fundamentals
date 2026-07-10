@@ -17,11 +17,11 @@ public class Teachers {
     }
 
     public void print() {
-        System.out.println(this.name);
-        System.out.println(this.specialty);
+        System.out.println("Professor : " + this.name);
+        System.out.println("Especialidade : " + this.specialty);
         if (seminaries == null) return;
         for (Seminary seminary : seminaries) {
-            System.out.println(seminary.getTitle());
+            System.out.println("Seminarios que ministra : " + seminary.getTitle());
         }
 
     }

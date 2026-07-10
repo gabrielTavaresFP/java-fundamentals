@@ -14,9 +14,9 @@ public class Location {
     }
 
     public void print() {
-        System.out.println(this.location);
+        System.out.println("Endereço : " + this.location);
         if (seminary == null) return;
-        System.out.println(seminary.getTitle());
+        System.out.println("Seminario localizado : " + seminary.getTitle());
     }
 
     public String getLocation() {
