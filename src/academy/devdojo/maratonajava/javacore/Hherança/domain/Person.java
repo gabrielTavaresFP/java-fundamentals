@@ -10,7 +10,7 @@ public class Person {
         System.out.println("Name:  " + this.name);
         System.out.println("Age: " + this.age);
         if (adress == null) return;
-        System.out.println("Address: " + adress.getStreet() + " and CEP : " + adress.getCep());
+        System.out.println("Address: " + adress.getStreet() + " and CEP  : " + adress.getCep());
     }
 
 
