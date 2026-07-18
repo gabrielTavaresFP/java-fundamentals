@@ -1,9 +1,9 @@
 package academy.devdojo.maratonajava.javacore.Hherança.domain;
 
 public class Person {
-    private String name;
-    private int age;
-    private Adress adress;
+    protected String name;
+    protected int age;
+    protected Adress adress;
 
 
     public void print() {
