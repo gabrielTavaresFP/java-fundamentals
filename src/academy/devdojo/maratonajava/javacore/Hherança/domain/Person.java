@@ -1,9 +1,23 @@
 package academy.devdojo.maratonajava.javacore.Hherança.domain;
 
-public class Person {
+public class Person  {
     protected String name;
     protected int age;
     protected Adress adress;
+    static {
+        System.out.println("Inside of static person initialization block");
+    }
+    {
+        System.out.println("Inside of person initialization block 1");
+    }
+    {
+        System.out.println("Inside of person initialization block 2");
+    }
+
+    public Person(String name){
+        this.name = name;
+        System.out.println("Inside of person constructor");
+    }
 
 
     public void print() {

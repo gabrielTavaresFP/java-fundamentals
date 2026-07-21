@@ -7,8 +7,7 @@ import academy.devdojo.maratonajava.javacore.Hherança.domain.Worker;
 public class HerançaTest01 {
     public static void main(String[] args) {
         Adress adress = new Adress("Rua 7", 72145760);
-        Person person = new Person();
-        person.setName("Gabriel");
+        Person person = new Person("Gabriel");
         person.setAge(23);
         person.setAdress(adress);
 
@@ -16,8 +15,7 @@ public class HerançaTest01 {
 
         System.out.println("------");
 
-        Worker worker = new Worker();
-        worker.setName("Gabriel");
+        Worker worker = new Worker("Gabriel");
         worker.setAge(23);
         worker.setAdress(adress);
         worker.setSalary(5000);
