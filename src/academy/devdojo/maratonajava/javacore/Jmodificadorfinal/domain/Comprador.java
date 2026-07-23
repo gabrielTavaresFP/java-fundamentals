@@ -1,9 +1,14 @@
 package academy.devdojo.maratonajava.javacore.Jmodificadorfinal.domain;
 
-public class Car {
+public class Comprador {
     private String name;
-    public static final double SPEED_CAP = 250;
-    public final Comprador  COMPRADOR = new Comprador();
+
+    @Override
+    public String toString() {
+        return "Comprador{" +
+                "name=" + name + '\'' +
+                '}';
+    }
 
     public String getName() {
         return name;
