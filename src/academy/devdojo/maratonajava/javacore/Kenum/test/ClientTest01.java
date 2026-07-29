@@ -16,5 +16,10 @@ public class ClientTest01 {
         System.out.println(PaymentType.CREDITO.discount(100));
         System.out.println(PaymentType.DEBITO.discount(50));
 
+        TypeClient typeClient =  TypeClient.valueOf("PESSOA_FISICA");
+        System.out.println(typeClient.getRelatoryName());
+        TypeClient typeClient2 = TypeClient.valueOf("PESSOA_JURIDICA");
+        System.out.println(typeClient2.getRelatoryName());
+
     }
 }
