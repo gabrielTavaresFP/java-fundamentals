@@ -1,7 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Lclassesabstratas.domain;
 
 public class Developer extends Worker {
-    public Developer(String name, int salary) {
+    public Developer(String name, double salary) {
         super(name, salary);
     }
 

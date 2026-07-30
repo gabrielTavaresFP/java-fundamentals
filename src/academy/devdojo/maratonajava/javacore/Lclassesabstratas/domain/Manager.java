@@ -1,7 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Lclassesabstratas.domain;
 
 public class Manager extends Worker  {
-    public Manager(String name, int salary) {
+    public Manager(String name, double salary) {
         super(name, salary);
     }
 
