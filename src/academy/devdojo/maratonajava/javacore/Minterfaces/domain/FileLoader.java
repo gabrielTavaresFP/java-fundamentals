@@ -13,6 +13,6 @@ public class FileLoader implements DataLoader, DataRemover {
     }
 
     public static void retrieveMaxDataSize() {
-        System.out.println("Inside the retrieveMaxDataSize in the class FileLoader");
+        System.out.println("Inside the retrieveMaxDataSize in the class FileLoader ");
     }
 }
