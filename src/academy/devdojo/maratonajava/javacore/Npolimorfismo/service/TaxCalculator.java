@@ -18,6 +18,6 @@ public class TaxCalculator {
         double tax = tomato.calculeTaxe();
         System.out.println("Tomato name " + tomato.getName());
         System.out.println("Price " + tomato.getPrice());
-        System.out.println("Tax " + tax);
+        System.out.println("Tax  " + tax);
     }
 }
