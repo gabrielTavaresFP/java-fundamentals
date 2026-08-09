@@ -22,4 +22,6 @@ public abstract class Product implements Taxeable {
     public double getPrice() {
         return price;
     }
+
+
 }
