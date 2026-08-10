@@ -3,7 +3,8 @@ package academy.devdojo.maratonajava.javacore.Npolimorfismo.domain;
 public class Tomato extends Product {
     public final static double TAX_PERCENT = 0.06;
 
-    private double dayExpiration;
+    private String dayExpiration;
+
     public Tomato(String name, double price) {
         super(name, price);
     }
@@ -14,7 +15,11 @@ public class Tomato extends Product {
         return this.price * TAX_PERCENT;
     }
 
-    public double getDayExpiration() {
+    public String getDayExpiration() {
         return dayExpiration;
+    }
+
+    public void setDayExpiration(String dayExpiration) {
+        this.dayExpiration = dayExpiration;
     }
 }

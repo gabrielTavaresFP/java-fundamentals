@@ -11,6 +11,16 @@ public class TaxCalculator {
         System.out.println("Product: " + product.getName());
         System.out.println("Price " + product.getPrice());
         System.out.println("Tax  " + tax);
+        if (product instanceof Tomato) {
+            // Tomato tomato = (Tomato) product;
+            // System.out.println("Expiration day: " +((Tomato) product).getDayExpiration());
+
+            String expirationDay = ((Tomato) product).getDayExpiration();
+            System.out.println(expirationDay);
+
+
+        }
+
 
     }
 }

@@ -2,6 +2,7 @@ package academy.devdojo.maratonajava.javacore.Npolimorfismo.test;
 
 import academy.devdojo.maratonajava.javacore.Npolimorfismo.domain.Computer;
 import academy.devdojo.maratonajava.javacore.Npolimorfismo.domain.Product;
+import academy.devdojo.maratonajava.javacore.Npolimorfismo.domain.Television;
 import academy.devdojo.maratonajava.javacore.Npolimorfismo.domain.Tomato;
 
 public class ProductTest02 {
@@ -18,6 +19,12 @@ public class ProductTest02 {
         System.out.println(product2.getPrice());
         System.out.println(product2.calculeTaxe());
 
+        System.out.println("-------");
+
+        Product product3 = new Television("Samsung 50\" ", 10000);
+        System.out.println(product3.getName());
+        System.out.println(product3.getPrice());
+        System.out.println(product3.calculeTaxe());
 
     }
 }
