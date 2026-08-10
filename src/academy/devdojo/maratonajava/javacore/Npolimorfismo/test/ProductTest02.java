@@ -6,14 +6,14 @@ import academy.devdojo.maratonajava.javacore.Npolimorfismo.domain.Tomato;
 
 public class ProductTest02 {
     public static void main(String[] args) {
-        Product product1 = new Computer("MacOS", 9000);
+        Product product1 = new Computer("MacOS ", 9000);
         System.out.println(product1.getName());
         System.out.println(product1.getPrice());
         System.out.println(product1.calculeTaxe());
 
         System.out.println("-------");
 
-        Product product2 = new Tomato("Green tomato", 9);
+        Product product2 = new Tomato("Green tomato ", 9);
         System.out.println(product2.getName());
         System.out.println(product2.getPrice());
         System.out.println(product2.calculeTaxe());
