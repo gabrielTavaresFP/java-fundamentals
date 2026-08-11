@@ -11,6 +11,6 @@ public class Aula01OlaDevDojo {
          linhas
     */
     public static void main(String[] args) {
-        System.out.println("kamehameha");
+        System.out.println("kamehameha ");
     }
 }

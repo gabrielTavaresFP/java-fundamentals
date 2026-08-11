@@ -14,7 +14,7 @@ public class Aula02TiposPrimitivos {
         char character = 67;
         String name = "Catarina";
 
-        System.out.println("ur age is "+age+ " yo");
+        System.out.println("ur age is  "+age+ " yo");
         System.out.println (fake);
         System.out.println (character);
         System.out.println (age);

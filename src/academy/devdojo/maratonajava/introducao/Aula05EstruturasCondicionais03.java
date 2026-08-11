@@ -21,7 +21,7 @@ public class Aula05EstruturasCondicionais03 {
         }
         System.out.println(result2);
 
-        String thirdOperator = salary > 5000? "Ill give 500 bucks to dev" : "i dont have 500 bucks but ill have it";
+        String thirdOperator = salary > 5000? "Ill give 500 bucks to dev" : "i dont have 500 bucks but ill have it ";
         System.out.println(thirdOperator);
     }
 }

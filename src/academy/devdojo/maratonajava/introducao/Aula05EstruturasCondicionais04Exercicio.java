@@ -15,6 +15,6 @@ public class Aula05EstruturasCondicionais04Exercicio {
         }else{
             result = salary * taxes3;
         }
-        System.out.println("u have to pay " + (int) result + " dollars to the government");
+        System.out.println("u have to pay " + (int) result + " dollars to the government ");
     }
 }

@@ -41,7 +41,7 @@ public class Aula04Operadores {
         float play5Price = 5000F;
 
         boolean isPlay5Purchasable = totalPriceCurrentAccount > play5Price || totalPriceSavingsAccount > play5Price;
-        System.out.println("isPlay5Purchasable " +isPlay5Purchasable);
+        System.out.println("isPlay5Purchasable  " +isPlay5Purchasable);
 
         // ATRIBUIÇÃO =  +=  -=  *=  /=  %=
 

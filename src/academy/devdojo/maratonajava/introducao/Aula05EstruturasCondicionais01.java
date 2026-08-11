@@ -12,7 +12,7 @@ public class Aula05EstruturasCondicionais01 {
             System.out.println("cannot drink");
         }
         if(!permition) {
-            System.out.println("cannot drink");
+            System.out.println("cannot drink ");
         }
     }
 }
