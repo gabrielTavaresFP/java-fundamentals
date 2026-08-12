@@ -9,7 +9,7 @@ public class Aula05EstruturasCondicionais06Exercicio {
         switch (day) {
             case 1:
             case 7:
-                System.out.println("Weekend");
+                System.out.println("Weekend ");
                 break;
 
             case 2:

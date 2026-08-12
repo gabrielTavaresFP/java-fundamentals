@@ -4,7 +4,7 @@ public class Aula05EstruturasCondicionais05 {
     public static void main(String[] args) {
         // Print the week day, considering 1 as sunday
 
-        byte day = 5;
+        byte day = 7;
 
         // char, int, byte, short, String
         switch (day) {

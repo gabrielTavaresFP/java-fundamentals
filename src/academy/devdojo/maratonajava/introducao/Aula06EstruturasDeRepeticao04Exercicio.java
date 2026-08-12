@@ -14,7 +14,7 @@ public class Aula06EstruturasDeRepeticao04Exercicio {
             double priceInstallment = carPrice / installment;
             if (installment > 36) {
                 break;
-            } System.out.println("Installment : " + installment + " Price : " + (int) priceInstallment + " dollars");
+            } System.out.println("Installment : " + installment + " Price  : " + (int) priceInstallment + " dollars");
         }
     }
 

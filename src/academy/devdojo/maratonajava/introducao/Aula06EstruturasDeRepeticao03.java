@@ -9,7 +9,7 @@ public class Aula06EstruturasDeRepeticao03 {
             if (i > 25) {
                 break;
             }
-            System.out.println(i);
+            System.out.println(i +" ");
         }
     }
 }
