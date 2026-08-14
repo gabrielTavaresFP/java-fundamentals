@@ -11,5 +11,9 @@ public class Aula07Arrays04 {
             System.out.println(num);
 
         }
+        for (int name : names) {
+            System.out.println(name);
+
+        }
     }
 }

@@ -6,6 +6,7 @@ public class Aula07Arrays03 {
         names[0] = "Catarina";
         names[1] = "Gabrielll";
         names[2] = "BiluBiluBiluBiluBiluBilu";
+        names[3] = "roberto";
 
         for (int i = 0; i < names.length ; i++) {
             System.out.println(names[i]);
