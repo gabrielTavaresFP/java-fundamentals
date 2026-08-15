@@ -20,6 +20,7 @@ public class CarExerciseTest1 {
         System.out.println(car.name + " " + car.model + " " + car.carYear);
         System.out.println("\n");
         System.out.println(car2.name + " " + car2.model + " " + car2.carYear);
+        // R
     }
 
 }

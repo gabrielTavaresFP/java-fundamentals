@@ -10,6 +10,7 @@ public class TeacherTest01 {
         teacher.gender = 'M';
 
         System.out.println(teacher.name + " age: " + teacher.age + " gender: " + teacher.gender);
+        // R
 
     }
 }
