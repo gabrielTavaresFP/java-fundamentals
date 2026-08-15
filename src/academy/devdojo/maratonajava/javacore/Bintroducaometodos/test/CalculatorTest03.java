@@ -12,7 +12,8 @@ public class CalculatorTest03 {
         System.out.println("-----------");
         System.out.println(result2);
         System.out.println("-----------");
-        calculator.printTwoNumbersDivision(30,0);
+        calculator.printTwoNumbersDivision(30,3);
 
     }
 }
+// R

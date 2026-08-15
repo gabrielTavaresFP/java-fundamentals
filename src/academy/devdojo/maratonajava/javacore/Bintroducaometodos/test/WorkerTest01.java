@@ -4,7 +4,7 @@ import academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain.Worker;
 import academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain.WorkersAverage;
 import academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain.WorkersData;
 
-public class WorkerTest01 {
+public class  WorkerTest01 {
     public static void main(String[] args) {
         Worker worker = new Worker();
 
@@ -21,3 +21,4 @@ public class WorkerTest01 {
         workersAverage.salaryAverage(worker.getSalary());
     }
 }
+// R
