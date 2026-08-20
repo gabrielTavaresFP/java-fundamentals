@@ -8,7 +8,7 @@ public class CarTest01 {
 
         Car c1 = new Car("A", 280);
         Car c2 = new Car("B ", 290);
-        Car c3 = new Car("C", 255);
+        Car c3 = new Car("C ", 255);
 
         Car.setSpeedCap(200);
 
