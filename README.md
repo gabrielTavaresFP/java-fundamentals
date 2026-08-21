@@ -29,7 +29,8 @@ java-fundamentals/
 | Operators | ✅ Done | Week 1 |
 | Control Flow | ✅ Done | Week 1 |
 | Arrays | ✅ Done | Week 1 |
-| OOP | ⏳ Pending | - |
+| OOP | ✅ Done | Month 3 |
+| ? | ? | ? |
 
 ## What I'm learning
 - OOP principles
