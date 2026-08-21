@@ -22,5 +22,6 @@ public class CarTest01 {
         c3.print();
         c3.print();
         c3.print();
+        c3.print();
     }
 }
