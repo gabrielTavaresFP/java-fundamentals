@@ -4,6 +4,7 @@ public class Worker {
     private String name;
     private int age;
     private double[] salary;
+    private double[] test;
 
 
     public String getName() {
@@ -30,6 +31,13 @@ public class Worker {
         this.salary = salary;
     }
 
+    public double[] getTest() {
+        return test;
+    }
+
+    public void setTest(double[] test) {
+        this.test = test;
+    }
 }
 
 // R

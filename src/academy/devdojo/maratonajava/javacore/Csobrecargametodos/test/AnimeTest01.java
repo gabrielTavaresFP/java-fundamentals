@@ -11,3 +11,4 @@ public class AnimeTest01 {
         anime.print();
     }
 }
+// R

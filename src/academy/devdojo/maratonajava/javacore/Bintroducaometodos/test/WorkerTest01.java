@@ -21,4 +21,4 @@ public class  WorkerTest01 {
         workersAverage.salaryAverage(worker.getSalary());
     }
 }
-// R
+//  R

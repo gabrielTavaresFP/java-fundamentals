@@ -1,6 +1,8 @@
 // MÉTODOS
 package academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain;
 
+import java.util.Arrays;
+
 public class Calculator {
     public void twoNumbersSum() {
         System.out.println(10 + 10);
@@ -47,9 +49,9 @@ public class Calculator {
         System.out.println(num2);
     }
 
-    public void sumArray(int[] numbers) {
+    public void sumArray(int[] numeros) {
         int sum = 0;
-        for (int num : numbers) {
+        for (int num : numeros) {
             sum += num;
         }
         System.out.println(sum);
@@ -61,6 +63,14 @@ public class Calculator {
             sum += num;
         }
         System.out.println(sum);
+    }
+
+    public void arrayVarArgsNOTSUM(int[]... numbers) {
+        for (int[] num : numbers) {
+            System.out.println(Arrays.toString(num));
+        }
+
+
     }
 }
 // R
