@@ -16,6 +16,7 @@ public class Anime {
         this.genre = genre;
     }
 
+
     public Anime(String name, String type, int episodes, String genre, String studio) {
         this(name, type, episodes, genre);
         this.studio = studio;
@@ -66,4 +67,4 @@ public class Anime {
     }
 }
 
-
+// R
