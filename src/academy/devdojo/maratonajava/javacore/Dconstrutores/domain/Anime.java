@@ -22,7 +22,7 @@ public class Anime {
         this.studio = studio;
     }
     public Anime() {
-        System.out.println("Inside constructor without arguments ");
+        System.out.println(" Inside constructor without arguments ");
     }
 
     public void print() {
