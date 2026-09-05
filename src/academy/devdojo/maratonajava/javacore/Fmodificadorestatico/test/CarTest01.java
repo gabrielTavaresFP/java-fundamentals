@@ -15,14 +15,7 @@ public class CarTest01 {
         c1.print();
         c2.print();
         c3.print();
-        c3.print();
-        c3.print();
-        c3.print();
-        c3.print();
-        c3.print();
-        c3.print();
-        c3.print();
-        c3.print();
-        c3.print();
+
     }
 }
+ // R

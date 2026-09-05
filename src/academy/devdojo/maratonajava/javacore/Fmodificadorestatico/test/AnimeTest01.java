@@ -9,3 +9,4 @@ public class AnimeTest01 {
         Anime a3 = new Anime();
     }
 }
+// R

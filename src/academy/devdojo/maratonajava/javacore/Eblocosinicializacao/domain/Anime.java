@@ -11,8 +11,11 @@ public class Anime {
         }
     }
 
-    public Anime(String name) {
+    public Anime(String name, int[] episodes) {
+
         this.name = name;
+        this.episodes = episodes;
+
 
     }
 
@@ -23,13 +26,23 @@ public class Anime {
             System.out.print(episode + " ");
         }
         System.out.println();
+
     }
 
     public String getName() {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEpisodes(int[] episodes) {
+        this.episodes = episodes;
+    }
+
     public int[] getEpisodes() {
         return episodes;
     }
 }
+// REVIEWWWWWWWWWWWWWWWWWWWWWWD
