@@ -23,3 +23,4 @@ public class HerançaTest01 {
         worker.print();
     }
 }
+// R
